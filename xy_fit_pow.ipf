@@ -63,7 +63,7 @@ Function xy_fit_pow(xWave, yWave)
 	
 	sprintf rmsestr, "%5.1f", rmse
 	sprintf r2str, "%4.2f", r2
-	stat_txt = "r\\S2\\M= " + r2str + "\rRMSE=" + rmsestr
+	stat_txt = "R\\S2\\M= " + r2str + "\rRMSE=" + rmsestr
 	TextBox /F=0 /C /N=text0 /X=65 /Y=5 stat_txt
 	
 	
